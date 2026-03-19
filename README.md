@@ -1,4 +1,1 @@
-"Lazy Vim"
-
-(Word) 
-( Sentence is a sentence )
+My personal neovim / lazyvim configuration
