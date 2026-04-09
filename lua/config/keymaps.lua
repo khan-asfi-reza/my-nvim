@@ -22,3 +22,12 @@ vim.keymap.set("n", "<leader>=", function()
     vim.notify("basedpyright started")
   end
 end, { desc = "Toggle basedpyright" })
+
+
+vim.keymap.del("n", "<leader>K")  -- Keywordprg
+vim.keymap.del("n", "<leader>L")  -- LazyVim Changelog
+-- Alt+hjkl for LazyVim window navigation
+vim.keymap.set("n", "<leader>h", "<C-w>h", { desc = "Go to left window" })
+vim.keymap.set("n", "<leader>j", "<C-w>j", { desc = "Go to lower window" })
+vim.keymap.set("n", "<leader>k", "<C-w>k", { desc = "Go to upper window" })
+vim.keymap.set("n", "<leader>l", "<C-w>l", { desc = "Go to right window" })
